@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(197, 185, 185);
+    font-family: lato,sans-serif;
+    color: #333;
+    font-size: 14px;
+    
+    
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+
+.header{
+    background-color: white;
+    padding:15px 0px 15px 0px;
+    margin: -8px;
+}
+.head-de{
+    margin-top: 11px;
+    color: #333;
+    font-size: 24px;
+    padding: 9px;
+    padding-left: 159px;
+  
+}
+
+.head-others{
+    float: right;
+    padding-right: 300px;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.home a.home,
+.about a.about,
+.contact a.contact
+{
+  color:rgb(14, 13, 13) ;
+  font-weight: bold;
+}
+
+.head-others a{
+    color: rgb(129, 122, 122);
+    text-decoration: none;
+    padding: 10px;
+}
+.head-pl{
+    padding: 5px;
+}
+.content{
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    display: inline-block;
+    
+}
+.content1{
+    width: 16%;
+    background-color: white;
+    margin-top: 10px;
+    padding-left: 5px;
+   border-radius: 1%;
+   padding-top: 4px;
+   display: inline-block;
+   
+}
+#img-small{
+    padding: 12px;
+  
+    
+}
+
+.content1-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-color: salmon;
+    border-style: double;
+    object-fit: cover;   
+     
+}
+.content1 p{
+    padding: 10px 10px 0px 10px;
+}
+.text-p{
+    font-weight: bold;
+}
+.social-links{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+hr{
+    width: 50%;
+  margin-right: 105px;
+}
+.right-content{
+    width: 84%;
+    float: right;
+    padding-top: 4px;
+    margin-top: -2px;
+    
+    
+    
+}
+.right-content1{
+    margin-left: 25px;
+    margin-right: 280px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    width: 680px;
+}
+.right-content2{
+    
+    width: 70%;
+    padding-right: 5px;
+    padding-left: 10px;
+    margin-top: -25px;
+    float: right;
+    
+
+}
+.right-img1{
+    display: inline-block;
+    width: 30%;  
+}
+.right-img1 img{
+    border-radius: 5px;
+    height: 196px;
+    width: 196px;
+}
+
+
+.right-text2{
+    display: inline-block;
+    
+}
+.accordingly{
+    margin-top: 50px;
+    background-color: white;
+   overflow: hidden;
+   padding: 10px;
+   border-radius: 5px;
+   margin-top: 40px;
+}
+.wherever-far{
+    background-color: white;
+    overflow: hidden;
+    padding: 8px;
+    border-radius: 5px;
+}
