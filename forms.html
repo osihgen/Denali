@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+</head>
+<body>
+    <div class="container">
+      <h3>Edit Intro</h3>
+      <img src="https://via.placeholder.com/150" class="img-circle" alt="Profile picture"> 
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="First Name">First Name <span class="glyphicon glyphicon-asterisk" style="color: blue;"></span></label>
+            <input type="text" class="form-control" id="First Name">
+          </div>
+          <div class="form-group col-md-6">             
+            <label for="Last Name">Last Name <span class="glyphicon glyphicon-asterisk" style="color: blue;"></span></label>
+            <input type="text" class="form-control" id="Last Name">
+            <div class="float-right">
+              <a href="#">Add new position</a>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="headline">Headline <span class="glyphicon glyphicon-asterisk" style="color: blue;"></span></label>
+          <textarea class="form-control" id="textarea"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="current position">Current Position</label>
+          <select class="custom-select" id="current position"></select>
+          <div class="float-right">
+            <a href="#">Add former name</a>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="custom-control custom-checkbox mr-sm-2">
+            <input class="custom-control-input" type="checkbox" id="customcontrolautosizing">
+            <label class="custom-control-label" for="customcontrolautosizing">
+              Show education in my intro
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="education">Education</label>
+          <select class="form-control" id="education"></select>
+          <div class="float-right">
+            <a href="#">Add new education</a>
+          </div>
+        </div>
+        <div class="form-group label-text-required">
+          <label for="country/region">Country/Region<span class="glyphicon glyphicon-asterisk" style="color: blue;"></span></label>
+          <input type="text" class="form-control" id="country/region">
+        </div>
+        <div class="form-group label-text-required">
+          <label for="locations in this country/region">Location in this Country/Region</label>
+          <input type="text" class="form-control" id="locations in this country/region">
+        </div>
+        <div class="form-group">
+          <label for="industry">Industry<span class="glyphicon glyphicon-asterisk" style="color: blue;"></span></label>
+          <select class="form-control" id="industry">
+            <option>choose an industry</option>
+            <option>Accounting</option>
+            <option>Banking</option>
+            <option>Chemicals</option>
+            <option>Capital Markets </option>
+            <option>Civil Engineering</option>
+            <option>Computer Games</option>
+            <option>Construction</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="Contact-info">Contact-info</label>
+          <input type="text" class="form-control" id="contact-info">
+        </div>
+        <div class="float-right">
+          <button type="submit" class="btn btn-primary">Save</button>
+        </div><br><br>
+        <h3>Edit experience</h3>
+        <div class="form-group">
+          <label for="title">Title<span class="glyphicon glyphicon-asterisk" style="color: blue;"></span></label>
+          <input type="text" class="form-control" id="title" placeholder="Ex: Retail Sales Manager">
+        </div>
+         <div class="form-group">
+          <label for="employment type">Employment type</label>
+          <select  class="custom-select"  id="employment type">
+            <option>-</option>
+            <option>Part-Time</option>
+            <option>Full-Time</option>
+            <option>Self Employed</option>
+            <option>Freelance</option>
+            <option>Contract</option>
+            <option>Internship</option>
+            <option>Apprenticeship</option>
+          </select>
+        </div> 
+        <div class="form-group">
+          <label for="company">Company</label>
+          <input type="text" class="form-control" id="company" placeholder="Ex: Microsoft"> 
+        </div>
+        <div class="form-group">
+          <label for="location">location<span class="glyphicon glyphicon-asterisk" style="color: blue;"></span></label>
+          <input type="text" class="form-control" id="location" placeholder="Ex: London,united Kingdom">
+        </div>
+        <div class="form-group">
+          <div class="custom-control custom-checkbox mr-sm-2">
+            <input class="custom-control-input" type="checkbox" id="customcontrolautosizing">
+            <label class="custom-control-label" for="customcontrolautosizing">
+              I am currently working in this role
+            </label>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-3">
+            <label for="Start date">Start Date<span class="glyphicon glyphicon-asterisk" style="color: blue;"></span></label>
+            <input type="month" class="form-control" id="Start date">
+          </div>
+          <div class="form-group col-md-3">             
+            <label for="End date"></label>
+            <input type="month" class="form-control" id="end-date">
+          </div>
+          <div class="col-md-3">End date<span class="glyphicon glyphicon-asterisk" style="color: blue;"></span><br>
+            Present
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="custom-control custom-checkbox mr-sm-2">
+            <input class="custom-control-input" type="checkbox" id="customcontrolautosizing">
+            <label class="custom-control-label" for="customcontrolautosizing">
+              Update my industry
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="custom-control custom-checkbox mr-sm-2">
+            <input class="custom-control-input" type="checkbox" id="customcontrolautosizing">
+            <label class="custom-control-label" for="customcontrolautosizing">
+              Update my headline
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="textarea">Description</label>
+          <textarea class="form-control" id="textarea" rows="5"></textarea>
+        </div>
+        <div class="text-muted">
+          <h6>Media </h6>
+         <p>Add or link to external documents, photos, sites, videos, and presentations.</p> 
+        </div>
+        <div class="row">
+          <div class="col-md-6"><button type="button" class="btn btn-primary btn-lg btn-block">Upload</button>
+          </div>
+          <div class="col-md-6"><button type="button" class="btn btn-Link btn-lg btn-block      text-decoration-none" style="border: 1px solid rgb(69, 69, 170);">Link</button>
+          </div>
+        </div>
+        <br><br>  
+        
+        <div class="float-right">
+          <button type="submit" class="btn btn-primary">Save</button>
+        </div>
+        <div>
+          <button type="submit" class="btn btn-primary">Delete</button>
+        </div>
+        <h3>Education</h3>
+      <div class="form-group">
+        <label for="School">School<span class="glyphicon glyphicon-asterisk" style="color: blue;"></span></label>
+        <input type="text" class="form-control" id="School" placeholder="Ex: University of Lagos">
+      </div>
+      <div class="form-group">
+        <label for="degree">Degree</label>
+        <input type="text" class="form-control" id="degree" placeholder="Ex: Bachelors">
+      </div>
+      <div class="form-group">
+        <label for="Field of study">Field of study</label>
+        <input type="text" class="form-control" id="Field of study" placeholder="Ex: business">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="Start Year">Start Year<span class="glyphicon glyphicon-asterisk" style="color: blue;"></span></label>
+          <select class="form-control" id="Start Year">
+            <option></option>
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+          </select>
+        </div>
+        <div class="form-group col-md-6">             
+          <label for="End year">End Year (or expected)</label>
+          <select class="form-control" id="Start Year">
+            <option></option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+            <option>2024</option>
+            <option>2025</option>
+            <option>2026</option>
+            <option>2027</option>
+          </select>
+        </div>  
+      </div>
+      <div class="form-group">
+        <label for="Grade">Grade</label>
+        <input type="text" class="form-control" id="Grade">
+       
+      </div>
+
+      <div class="form-group">
+        <label for="textarea">Activities and societies</label>
+        <textarea class="form-control" id="textarea" rows="5"></textarea>
+        <div class="text-muted">
+          <p>Ex: Footbal, singing, basketball.</p> 
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="textarea">Description</label>
+        <textarea class="form-control" id="textarea" rows="5"></textarea>
+      </div>
+      <div class="text-muted">
+        <h6>Media </h6>
+       <p>Add or link to external documents, photos, sites, videos, and presentations.</p> 
+      </div>
+      <div class="row">
+        <div class="col-md-6"><button type="button" class="btn btn-primary btn-lg btn-block" > Upload</button>
+        </div>
+        <div class="col-md-6">
+        <button type="button" class="btn btn-Link btn-lg btn-block text-decoration-none" style="border: 1px solid rgb(69, 69, 170);">Link
+        </button>
+        </div>
+      </div>
+      </form>
+    </div>
+    
+    
+    
+    
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
